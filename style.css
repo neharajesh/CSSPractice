@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+h2:hover {
+    color: red;
+}
+
+.subtitle {
+    color: blue; 
+}
+
+#services {
+    color: green;
+}
+
+li:first-child {
+    color:darkmagenta;
+}
+
+li:last-child {
+    color:orangered;
+}
+
+li:nth-child(2) {
+    color:cornflowerblue;
+}
+
+#google-link:link {
+
+}
+
+#google-link:visited {
+    
+}
