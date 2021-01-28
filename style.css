@@ -7,8 +7,13 @@ h2:hover {
     color: red;
 }
 
-.subtitle {
+/* .subtitle {
     color: blue; 
+} */
+
+/* same thing in attribute selector form */
+h2[class = subtitle] {
+    color: blue;
 }
 
 #services {
@@ -51,4 +56,13 @@ ul > li {
 ul li {
     /* works on all li(s) that are direct children of ul(s) */
     color: green;
+}
+
+/* attribute selectors */
+img[src^="images/"] {
+    border: 5px solid white;
+}
+
+h2[class~=article-subtitle] {
+    background: yellow;
 }
