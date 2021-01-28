@@ -15,7 +15,7 @@ h2:hover {
     color: green;
 }
 
-li:first-child {
+/* li:first-child {
     color:darkmagenta;
 }
 
@@ -25,12 +25,30 @@ li:last-child {
 
 li:nth-child(2) {
     color:cornflowerblue;
+} */
+
+/* #google-link {
+    color: white;
 }
 
-#google-link:link {
+#google-link:hover{
+    color:brown;
+} */
+
+h2 + a {
+    color: pink;
+}
+
+textarea ~ button {
+    color: purple;
+    background: orange;
+}
+
+ul > li {
     color: blue;
 }
 
-#google-link:visited {
-    color: red;
+ul li {
+    /* works on all li(s) that are direct children of ul(s) */
+    color: green;
 }
