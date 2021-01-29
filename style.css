@@ -1,74 +1,11 @@
 body {
-    background-color: black;
-    color: white;
+    background: papayawhip;
 }
 
-h2:hover {
-    color: red;
+#title {
+    color: #e83209;
 }
 
-/* .subtitle {
-    color: blue; 
-} */
-
-/* same thing in attribute selector form */
-h2[class = subtitle] {
-    color: blue;
+.subtitle {
+    color: #f44822;
 }
-
-#services {
-    color: green;
-}
-
-/* li:first-child {
-    color:darkmagenta;
-}
-
-li:last-child {
-    color:orangered;
-}
-
-li:nth-child(2) {
-    color:cornflowerblue;
-} */
-
-/* #google-link {
-    color: white;
-}
-
-#google-link:hover{
-    color:brown;
-} */
-
-h2 + a {
-    color: pink;
-}
-
-textarea ~ button {
-    color: purple;
-    background: orange;
-}
-
-ul > li {
-    color: blue;
-}
-
-ul li {
-    /* works on all li(s) that are direct children of ul(s) */
-    color: green;
-}
-
-/* attribute selectors */
-img[src^="images/"] {
-    border: 5px solid white;
-}
-
-h2[class~=article-subtitle] {
-    background: yellow;
-}
-
-/* THE GENERAL CSS RULE
-selector {
-    property: value;
-    property2: value;
-} */
