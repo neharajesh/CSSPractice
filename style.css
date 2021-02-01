@@ -1,6 +1,8 @@
 body {
-    background:papayawhip;
-}
+    /* with no opacity background:rgb(200, 225, 10); */
+    /* background: rgba(200, 225, 10, 0.4); */
+    background: linear-gradient(to bottom, papayawhip, coral);
+} 
 
 #title {
     color: #e83209;
@@ -8,4 +10,23 @@ body {
 
 .subtitle {
     color: #f44822;
+}
+
+#service-image {
+    height: 400px;
+    width: 70%;
+
+    /* linear gradients */
+    /* background: linear-gradient(to right, red, papayawhip); */
+    /* background: linear-gradient(to right, red, papayawhip, orangered); */
+    /* background: linear-gradient(to right, rgb(95, 197, 22), rgba(95, 197, 22, 0)); */
+    /* background: linear-gradient(to bottom left, rgb(95, 197, 22), rgba(95, 197, 22, 0)); */
+    /* background: linear-gradient(-90deg, rgb(95, 197, 22), rgba(95, 197, 22, 0)); */
+
+    /* radial gradients */
+    /* background: radial-gradient(red, blue); */
+    /* background: radial-gradient(red, blue, green); */
+    /* background: radial-gradient(red 20%, blue 40%, green 55%); */
+    background: radial-gradient(circle, red 20%, blue 40%, green 55%);
+
 }
