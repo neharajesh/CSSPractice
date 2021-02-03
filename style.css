@@ -19,4 +19,6 @@ body {
 #about-us-image {
     height: 250px;
     width: 40vw;
+    border: 10px double rgb(43, 9, 156);
+    /* border styles can be - solid, double, dashed and dotted  */
 }
