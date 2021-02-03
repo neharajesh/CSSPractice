@@ -14,22 +14,22 @@ body {
     height: 400px;
     width: 70%;
     background: radial-gradient(circle, red 20%, blue 40%, green 55%);
+    float: right; 
+    /* moves image right. "left" to move image left */
+    /* other properties are - inherit (to inherit the parent's float properties) and none (leaves element as it is) */
 }
 
 #about-us-image {
     height: 250px;
     width: 40vw;
     border: 10px double rgb(43, 9, 156);
-    /* border styles can be - solid, double, dashed and dotted  */
-
-    /* padding: 10px;  all four sides */
-    /* padding: 100px 50px 40px 20px; - top right bottom left */
     padding: 20px 5px;
-    /* padding: top+bottom right+left; */
-
-    /* margin: 10px; - all four sides */
-    /* margin: 100px 50px 40px 9px; - top right bottom left */
     margin: 20px 5px;
-    /* margin: top+bottom right+left; */
+}
 
+.site-table {
+    /* display: none; - hides from website */
+    display: inline-block; 
+    /* keeps table on same line as the google link but the table behaves like a block. useful with grids */
+    /* other properties are - none, inline, block, etc. */
 }
