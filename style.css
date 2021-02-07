@@ -29,18 +29,22 @@ body {
 
 .container {
     background: white;
+    height: 300px;
 
     /* flexbox stuff */
     display: flex;
-    /* flex-direction: row-reverse; column, column-reverse and row */
     flex-direction: row;
-    /* flex-wrap: wrap-reverse; wrap, nowrap */
+    flex-wrap: wrap;
+    justify-content: center;
+    /* space-around, space-between, flex-start and flex-end */
+
+    align-items: center;
+    /* stretch, flex-start, baseline and flex-end */
 }
 
 .container-item {
     background: green;
     color: white;
-    height: 30px;
     width: 50px;
     font-size: 22px;
     margin: 0.5rem;
