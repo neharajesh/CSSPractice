@@ -36,10 +36,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    /* space-around, space-between, flex-start and flex-end */
-
     align-items: center;
-    /* stretch, flex-start, baseline and flex-end */
 }
 
 .container-item {
