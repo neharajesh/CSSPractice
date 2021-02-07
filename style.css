@@ -57,9 +57,12 @@ body {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
-    justify-content: start;
-    /* can also use - center, end, space-evenly and space-around */
-    align-content: end;
+
+    /* grid-column-gap: 150px; */
+    /* grid-row-gap: 300px; */
+    /* grid-gap: row column; */
+    grid-gap: 300px 150px;
+    
 }
 
 .grid-item {
