@@ -15,21 +15,34 @@ body {
     width: 70%;
     background: radial-gradient(circle, red 20%, blue 40%, green 55%);
     float: right; 
-    /* moves image right. "left" to move image left */
-    /* other properties are - inherit (to inherit the parent's float properties) and none (leaves element as it is) */
 }
 
 #about-us-image {
     height: 250px;
     width: 40vw;
-    border: 10px double rgb(43, 9, 156);
-    padding: 20px 5px;
-    margin: 20px 5px;
+    float: right;
 }
 
 .site-table {
-    /* display: none; - hides from website */
     display: inline-block; 
-    /* keeps table on same line as the google link but the table behaves like a block. useful with grids */
-    /* other properties are - none, inline, block, etc. */
+}
+
+.container {
+    background: white;
+
+    /* flexbox stuff */
+    display: flex;
+    /* flex-direction: row-reverse; column, column-reverse and row */
+    flex-direction: row;
+    /* flex-wrap: wrap-reverse; wrap, nowrap */
+}
+
+.container-item {
+    background: green;
+    color: white;
+    height: 30px;
+    width: 50px;
+    font-size: 22px;
+    margin: 0.5rem;
+    text-align: center;
 }
