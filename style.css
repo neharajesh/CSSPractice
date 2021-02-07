@@ -47,3 +47,21 @@ body {
     margin: 0.5rem;
     text-align: center;
 }
+
+.grid-container {
+    background: white;
+    height: 300px;
+    margin: 20px;
+
+    /* grid */
+    display: grid;
+}
+
+.grid-item {
+    background: rgb(48, 48, 235);
+    color: white;
+    width: 50px;
+    font-size: 22px;
+    margin: 0.5rem;
+    text-align: center;
+}
