@@ -50,24 +50,16 @@ body {
 
 .grid-container {
     background: white;
-    height: 300px;
+    height: 500px;
     margin: 20px;
 
     /* grid */
     display: grid;
-
-    /* for 3 columns and 2 rows with defined/absolute sizes */
-    /* grid-template-columns: 50px 30px 10px; */
-    /* grid-template-rows: 50px 250px; */
-
-    /* set everything to auto for space to be divided evenly */
-    /* grid-template-columns: auto auto auto; */
-    /* grid-template-rows: auto auto; */
-
-    /* you can set any absolute value also in between */
-    /* rest of the space will be divided evenly between the rest of the items */
-    grid-template-columns: auto 100px auto;
+    grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
+    justify-content: start;
+    /* can also use - center, end, space-evenly and space-around */
+    align-content: end;
 }
 
 .grid-item {
